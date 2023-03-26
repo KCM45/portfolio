@@ -1,6 +1,4 @@
-body {
-  background-color: #0b192f;
-}
+
 
 .header {
   width: 100%
@@ -8,12 +6,18 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  margin: 20px;
+  border: 5px solid black;
+  
+  
 }
 
 .nav-links {
   display: flex;
   justify-content: space-between;
+  align-items: right;
+  border: 2px dashed blue;
 }
 
 .list-links {
@@ -22,8 +26,15 @@ body {
 
 .nav-items {
   display: inline-block;
+  margin: auto;
 }
 
 .name h2 {
   color: yellow;
+}
+
+.container {
+  display: flex;
+  width: auto;
+
 }
