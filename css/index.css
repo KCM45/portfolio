@@ -19,6 +19,7 @@ h1 {
 
 .navbar {
   display: flex;
+  margin-top: 15px;
   justify-content: flex-end;  
 }
 
@@ -66,8 +67,40 @@ h1 {
 
 .headshot {
   justify-content: center;  
+  margin: 75px 0 0 0;
 }
 
+.headshot > img {
+  max-width: 100%;
+  height: auto;
+}
+
+#portfolio {
+  margin-top: 50px;
+  text-align: center;
+  border: 4px solid white;
+}
+#portfolio > h3 {
+  color: #CCD6F6;
+  font-size: 25px;
+}
+
+#portfolio > img {
+  display: block;
+  max-width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 25px;
+}
+
+#about > h3 {
+  color: #CCD6F6;
+  font-size: 25px;
+}
+#contact > h3 {
+  color: #CCD6F6;
+  font-size: 25px;
+}
 .contact-list {
   display: flex;
   justify-content: space-between;
