@@ -2,6 +2,9 @@
 body {
   background-color: #263b5e;
   font-family: "Roboto Mono", monospace;
+  border: 6px solid #64FFDA;
+  padding-right: 250px;
+  padding-left: 250px;
 }
 
 .header {
@@ -53,19 +56,19 @@ h1 {
   margin: auto;
   justify-content: center;
   align-items: center;
-  border: 3px solid green;
-
 }
 
 .name {
   display: inline-block;
-  border: 2px solid black;
   align-content: center;
   color: #CCD6F6;
 }
 
 .headshot {
-  justify-content: center;
-  border: 2px dashed purple;
-  
+  justify-content: center;  
+}
+
+.contact-list {
+  display: flex;
+  justify-content: space-between;
 }
