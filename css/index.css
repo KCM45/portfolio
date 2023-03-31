@@ -8,9 +8,12 @@ body {
 }
 
 .header {
+  position: sticky;
+  top: 0px;
   width: 100%;
   margin: 0px;
   padding: 0px;
+  background-color: #263b5e;
 }
 
 h1 {
@@ -19,6 +22,7 @@ h1 {
 
 .navbar {
   display: flex;
+
   margin-top: 15px;
   justify-content: flex-end;  
 }
@@ -85,9 +89,19 @@ h1 {
   font-size: 25px;
 }
 
-#portfolio > img {
+.port-1st {
+  position: relative;
+}
+
+.port-1st-label {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+.port-1st > img {
   display: block;
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   margin: auto;
   margin-top: 25px;
