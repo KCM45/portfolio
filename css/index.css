@@ -122,19 +122,37 @@ h1 {
 .port-2nd-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-top: 25px;
   height: auto;
   max-width: 100%;
 }
 
-.port-2nd-row > section {
-  border: 3px solid white;
+.port-2nd-row-img {
+  max-width: 50%;
+  height: auto;
+  position: relative;
 }
 
 .port-2nd-row-img > img {
-  max-width: 45%;
+  max-width: 95%;
   height: auto;
+}
+
+.port-2nd-label {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  background-color: #263b5e;
+  border: 2px solid #64FFDA;
+}
+
+.port-2nd-title {
+  color: #CCD6F6;
+  font-size: 20px;
+}
+
+.port-2nd-stack {
+  color: #A8B2D1;
 }
 
 #about {
