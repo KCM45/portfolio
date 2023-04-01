@@ -121,21 +121,34 @@ h1 {
 
 .port-2nd-row {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
   height: auto;
   max-width: 100%;
-  border: 10px solid white;
+}
+
+.port-2nd-row > section {
+  border: 3px solid white;
+}
+
+.port-2nd-row-img > img {
+  max-width: 45%;
+  height: auto;
 }
 
 #about {
+  margin-top: 25px;
   color: #CCD6F6;
 }
+
 #about > h3 {
   font-size: 25px;
   text-align: center;
 }
 
 #contact {
-  margin-bottom: 2/5%;
+  margin-bottom: 2.5%;
 }
 #contact > h3 {
   color: #CCD6F6;
