@@ -7,6 +7,7 @@ body {
 
 .header {
   position: sticky;
+  z-index: 1;
   top: 0px;
   width: 98%;
   margin: 0px;
