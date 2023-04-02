@@ -8,8 +8,10 @@ body {
 .header {
   position: sticky;
   top: 0px;
-  width: 100%;
+  width: 98%;
   margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0px;
   background-color: #263b5e;
 }
@@ -55,7 +57,6 @@ h1 {
 }
 
 .name {
-  align-content: center;
   color: #CCD6F6;
 }
 
@@ -177,8 +178,11 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
   .container {
-    flex-direction: row;
+    flex-direction: column-reverse;
   }
 
   .list-links {
@@ -187,5 +191,16 @@ h1 {
 
   .nav-items {
     margin: 0;
+  }
+
+  .port-2nd-row {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  #about {
+    margin-left: 2%;
+    margin-right: 2%;
   }
 }
