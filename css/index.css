@@ -1,8 +1,9 @@
+/** @format */
 
 body {
   background-color: #263b5e;
   font-family: "Roboto Mono", monospace;
-  border: 6px solid #64FFDA;
+  border: 6px solid #64ffda;
 }
 
 .header {
@@ -32,18 +33,16 @@ h1 {
 
 .nav-items {
   font-size: 22px;
-  color: #CCD6F6;
+  color: #ccd6f6;
 }
 
-
-
-.nav-items > a{
+.nav-items > a {
   text-decoration: none;
-  color: #A8B2D1;
+  color: #a8b2d1;
 }
 
 .name h2 {
-  color: #A8B2D1;
+  color: #a8b2d1;
 }
 
 .container {
@@ -58,11 +57,11 @@ h1 {
 }
 
 .name {
-  color: #CCD6F6;
+  color: #ccd6f6;
 }
 
 .headshot {
-  justify-content: center;  
+  justify-content: center;
   margin: 75px 0 0 0;
 }
 
@@ -77,7 +76,7 @@ h1 {
 }
 
 #portfolio > h3 {
-  color: #CCD6F6;
+  color: #ccd6f6;
   font-size: 25px;
 }
 
@@ -90,16 +89,19 @@ h1 {
   bottom: 10%;
   left: 25%;
   background-color: #263b5e;
-  border: 2px solid #64FFDA;
+  border: 2px solid #64ffda;
 }
 
+.port-1st-label:hover {
+  cursor: pointer;
+}
 .port-1st-title {
-  color: #CCD6F6;
+  color: #ccd6f6;
   font-size: 20px;
 }
 
 .port-1st-stack {
-  color: #A8B2D1;
+  color: #a8b2d1;
 }
 
 .port-1st > img {
@@ -135,21 +137,21 @@ h1 {
   bottom: 10%;
   left: 10%;
   background-color: #263b5e;
-  border: 2px solid #64FFDA;
+  border: 2px solid #64ffda;
 }
 
 .port-2nd-title {
-  color: #CCD6F6;
+  color: #ccd6f6;
   font-size: 20px;
 }
 
 .port-2nd-stack {
-  color: #A8B2D1;
+  color: #a8b2d1;
 }
 
 #about {
   margin-top: 25px;
-  color: #CCD6F6;
+  color: #ccd6f6;
 }
 
 #about > h3 {
@@ -161,7 +163,7 @@ h1 {
   margin-bottom: 2.5%;
 }
 #contact > h3 {
-  color: #CCD6F6;
+  color: #ccd6f6;
   font-size: 25px;
   text-align: center;
 }
@@ -169,13 +171,13 @@ h1 {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  color: #CCD6F6;
+  color: #ccd6f6;
   font-size: 20px;
 }
 
 #contact > ul > li > a {
   text-decoration: none;
-  color: #CCD6F6;
+  color: #ccd6f6;
 }
 
 @media screen and (max-width: 600px) {
